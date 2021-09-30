@@ -29,11 +29,15 @@
         color: inherit;
         margin-right: 40px;
         @include mobile{
-            margin-right: 0px;
+            margin-right: 0;
+            font-size: 25px;
         }
 
         img{
             width:40px;
+            @include mobile{
+              width:30px;
+            }
     }
         
       }
@@ -55,7 +59,7 @@
         right: 0;
         width: 40%;
         @include mobile{
-            width:25%;
+            width:30%;
             }
 
         .icon{
